@@ -1,5 +1,5 @@
 # Clarify - Making the web accessible for everyone
-https://clarify-this-staging.herokuapp.com
+https://clarify-this.herokuapp.com
 
 Clarify | The web before | The web after
 :-:|:-:|:-:

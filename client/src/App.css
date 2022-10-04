@@ -51,6 +51,13 @@ h2 {
   display: inline-flex;
 }
 
+.demo-description {
+  font-size: 0.75em;
+  padding-left: 3%; 
+  padding-right: 3%; 
+  margin-top: 2%;
+}
+
 .demo-menu {
   min-width: 30%;
   margin-left: 1em;

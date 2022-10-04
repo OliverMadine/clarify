@@ -56,7 +56,7 @@ function App() {
       </header>
       {Demo(preset, setPreset, styleChanged, setStyleChanged)}
       <div className="popular-cards-header">
-        <h2>Popular Designs</h2>
+        <h2>Popular Presets</h2>
         <div className="popular-cards">
           {/* onClick on the card, update the dbPreset variable, this will re-render this component */}
           {dbPresets.sort((s1: Style, s2: Style) => { return s2.gId - s1.gId; }).map(style => {
@@ -102,6 +102,15 @@ function Demo(preset: Preset, setPreset: (_: Preset) => void, styleChanged: bool
   return (
     <div className="demo-header">
       <h2>Demo</h2>
+      <p className="demo-description"> 
+        What you can do:
+        <ul>
+          <li> <b>See the improvements with your eyes</b>: select ORIGINAL to see the web page before applying the changes, CLARIFY to see it after</li>
+          <li> <b>Tailor it to perfection</b>: customise the configuration by opening the menu of the single features and activate the toggle to try out! </li>
+          <li> <b>Bring it with you</b>: download the preset to have it always with you!</li>
+          <li> <b>Enjoy the great community</b>: load a popular preset by clicking on the cards below! </li> 
+        </ul> 
+      </p>
       <div className="demo">
         <div className="demo-menu">
           <div className="demo-toggle">

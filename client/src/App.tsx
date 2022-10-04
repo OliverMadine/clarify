@@ -103,7 +103,10 @@ function Demo(preset: Preset, setPreset: (_: Preset) => void, styleChanged: bool
     <div className="demo-header">
       <h2>Demo</h2>
       <p className="demo-description"> 
-        What you can do:
+        Welcome to the demo of <b>Clarify</b>! Clarify is a Chrome extension that <b>enhances web surfing</b> by letting you
+        customise the appearance of the web pages, save your favourite configurations and share them with the community. 
+        <br></br> <br></br>
+        What you can do in this demo:
         <ul>
           <li> <b>See the improvements with your eyes</b>: select ORIGINAL to see the web page before applying the changes, CLARIFY to see it after</li>
           <li> <b>Tailor it to perfection</b>: customise the configuration by opening the menu of the single features and activate the toggle to try out! </li>

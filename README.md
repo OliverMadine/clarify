@@ -13,8 +13,8 @@ Clarify | A web page before | A web page after
 
 
 We also created a [web app](https://clarify-this.herokuapp.com) that allows users to:
-- use a **demo** of the Chrome extension,
-- download popular user configurations to their Chrome extension.
+- demo the Chrome extension
+- download popular user configurations to their Chrome extension
 
 # Credit
 The website used in the above example: https://www.helenarkell.org.uk/about-dyslexia/useful-links.php

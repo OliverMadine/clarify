@@ -11,6 +11,13 @@ Clarify | A web page before | A web page after
 :-:|:-:|:-:
 <img width="298" alt="Clarify Chrome extension" src="https://user-images.githubusercontent.com/30090176/177612003-a4cd2eb4-0d2a-4512-8d78-08bbeca2cbe0.png"> | <img width="661" alt="An example of a web page before using Clarify" src="https://user-images.githubusercontent.com/30090176/177612047-95c09e2f-ec17-48b1-9ec4-b6488b2ec994.png"> | <img width="675" alt="An example of a web page after using Clarify" src="https://user-images.githubusercontent.com/30090176/177612081-755a3832-cacc-479e-a488-978c31a344ce.png">
 
+# Getting Started
+
+1. navigate to `extension/`
+2. `npm install`
+3. `npm run build`
+4. [Load Clarify into your Chrome browser](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked)
+
 # Features
 - Customise the appearance of web pages
 - Save your favourite configurations
